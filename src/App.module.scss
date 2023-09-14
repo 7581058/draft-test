@@ -1,0 +1,81 @@
+.container {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBlock {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  bottom: 50px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+//4c61ff 액티브
+//#aeb9d1 툴바
+.menu {
+  width: 100%;
+  height: 80px;
+  background-image: url("./assets/tops.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.btnAdd {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #e2e6ef;
+  color: #878b96;
+}
+.editorContainer {
+  &.opened {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.textForm {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+// .texteditor {
+//   width: 40rem;
+// }
+
+// .DraftEditor-root {
+//   border: 1px solid #eee;
+//   margin: 2rem 0;
+//   border-radius: 0.5rem;
+// }
+
+// .DraftEditor-editorContainer {
+//   padding: 1.5rem;
+// }
+
+// .public-DraftEditor-content {
+//   min-height: 20rem;
+// }
